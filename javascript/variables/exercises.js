@@ -46,3 +46,38 @@ greeting = 'Boa noite'
 person = 'Pedro'
 console.log(greeting, person)
 
+// 1. Declare a new variable named petDog and give it the name Rex.
+var petDog = 'Rex'
+
+// 2. Declare a new variable named petCat and give it the name Pepper.
+var petCat = 'Pepper'
+
+// 3. Log the petDog variable to the console.
+console.log(petDog)
+
+// 4. Log the petCat variable to the console.
+console.log(petCat)
+
+// 5. Log the following to the console: the text "My pet dog's name is: " and the petDog variable.
+console.log("My pet dog's name is:", petDog)
+
+// 6. Log the following to the console: the text "My pet cat's name is: " and the petCat variable.
+console.log("My pet cat's name is:", petCat)
+
+// 7. Declare another variable and name it catSound. Assign the string of "purr" to it.
+var catSound = 'purr'
+
+// 8. Declare another variable and name it dogSound. Assign the string of "woof" to it.
+var dogSound = 'woof'
+
+// 9. Log the following to the console: the variable petDog, then the string "says", then the variable dogSound.
+console.log(petDog, 'says', dogSound)
+
+// 10. Log the following to the console: the variable petCat, then the string "says", then the variable catSound.
+console.log(petCat, 'says', catSound)
+
+// 11. Reassign the value stored in catSound to the string "meow".
+catSound = 'meow'
+
+// 12. Log the following to the console: the variable petCat, then the string "now says", then the variable catSound.
+console.log(petCat, 'now says', catSound)
